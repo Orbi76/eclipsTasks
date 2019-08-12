@@ -7,6 +7,7 @@ public class tobbSzamBeirasaTizig {
 	public static void main(String[] args) {
 		checkNumbNullTen();
 		System.out.println("ide a checkNumbNullTen() return je" );
+		System.out.println("Git et hozzaadtam");
 	}
 	
 	public static int checkNumbNullTen() {
