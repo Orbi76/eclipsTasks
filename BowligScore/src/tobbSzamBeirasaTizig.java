@@ -5,9 +5,12 @@ public class tobbSzamBeirasaTizig {
 	private static Scanner beirt;
 
 	public static void main(String[] args) {
-		checkNumbNullTen();
-		System.out.println("ide a checkNumbNullTen() return je" );
-		System.out.println("Git et hozzaadtam");
+		
+		tobbSzamBeirasaTizig most = new tobbSzamBeirasaTizig();
+		
+
+		System.out.println("ide a checkNumbNullTen() return je" + most.checkNumbNullTen());
+		
 	}
 	
 	public static int checkNumbNullTen() {
