@@ -1,9 +1,8 @@
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class tobbSzamBeirasaTizig {
 
-	private static Scanner beirt;
+//	private static Scanner beirt;
 	private static int[] rolls = new int[5];
 	
 	public static void main(String[] args) {
