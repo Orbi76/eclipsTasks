@@ -8,23 +8,26 @@ public class tobbSzamBeirasaTizig {
 	
 	public static void main(String[] args) {
 		
-		tobbSzamBeirasaTizig most = new tobbSzamBeirasaTizig();
-		
+//		tobbSzamBeirasaTizig most = new tobbSzamBeirasaTizig();
+		checkNumbNullTen most = new checkNumbNullTen();
 
-		System.out.println("ide a checkNumbNullTen() return je" + most.checkNumbNullTen());
-		for (int i = 0; i < 10; i++) {
-			checkNumbNullTen();
+System.out.println("Please enter a positive number between 0-10 elso");
+//		System.out.println("ide a checkNumbNullTen() return je" + tobbSzamBeirasaTizig.checkNumbNullTen());
+	//	System.out.println("ide a checkNumbNullTen() return je" + most.checkNumbNullTen());
+		for (int i = 0; i < 5; i++) {
+		//	checkNumbNullTen();
+//		rolls[i] = tobbSzamBeirasaTizig.checkNumbNullTen();
 		rolls[i] = most.checkNumbNullTen();
 		System.out.println(Arrays.toString(rolls));	
 			}
 			
 	}
-	
+/*	
 	public static int checkNumbNullTen() {
 		beirt = new Scanner(System.in);
 		int beirtSzam;
 		do {
-			System.out.println("Please enter a positive number between 0-10");
+		//	System.out.println("Please enter a positive number between 0-10");
 			while (!beirt.hasNextInt()) {
 				System.out.println("That's not a number!");
 				beirt.next(); // this is important!
@@ -35,5 +38,6 @@ public class tobbSzamBeirasaTizig {
 	//	System.out.println("Thank you! Got " + beirtSzam);
 		return beirtSzam;
 	}
+*/	
 	
 }
