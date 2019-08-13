@@ -7,7 +7,7 @@ public class checkNumbNullTen {
 		beirt = new Scanner(System.in);
 		int beirtSzam;
 		do {
-		//	System.out.println("Please enter a positive number between 0-10");
+			System.out.println("Please enter a positive number between 0-10");
 			while (!beirt.hasNextInt()) {
 				System.out.println("That's not a number!");
 				beirt.next(); // this is important!

@@ -11,13 +11,15 @@ public class tobbSzamBeirasaTizig {
 //		tobbSzamBeirasaTizig most = new tobbSzamBeirasaTizig();
 		checkNumbNullTen most = new checkNumbNullTen();
 
-System.out.println("Please enter a positive number between 0-10 elso");
+// System.out.println("Please enter a positive number between 0-10 elso");
 //		System.out.println("ide a checkNumbNullTen() return je" + tobbSzamBeirasaTizig.checkNumbNullTen());
 	//	System.out.println("ide a checkNumbNullTen() return je" + most.checkNumbNullTen());
 		for (int i = 0; i < 5; i++) {
 		//	checkNumbNullTen();
 //		rolls[i] = tobbSzamBeirasaTizig.checkNumbNullTen();
-		rolls[i] = most.checkNumbNullTen();
+		int guritott = most.checkNumbNullTen();
+			rolls[i] = guritott;
+		
 		System.out.println(Arrays.toString(rolls));	
 			}
 			
