@@ -1,16 +1,23 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class tobbSzamBeirasaTizig {
 
 	private static Scanner beirt;
-
+	private static int[] rolls = new int[5];
+	
 	public static void main(String[] args) {
 		
 		tobbSzamBeirasaTizig most = new tobbSzamBeirasaTizig();
 		
 
 		System.out.println("ide a checkNumbNullTen() return je" + most.checkNumbNullTen());
-		
+		for (int i = 0; i < 10; i++) {
+			checkNumbNullTen();
+		rolls[i] = most.checkNumbNullTen();
+		System.out.println(Arrays.toString(rolls));	
+			}
+			
 	}
 	
 	public static int checkNumbNullTen() {
