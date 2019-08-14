@@ -7,12 +7,12 @@ public class Game {
 	private static int roll = 0;
 	private static int[] rolls = new int[21];
 
-	public void roll(int... rolls) {
+/*	public void roll(int... rolls) {
 		for (int beirtSzamok : rolls)
 			roll(beirtSzamok);
 
 	}
-
+*/
 	/*
 	 * public void roll(int pinsDown) { rolls[roll++] = pinsDown; }
 	 */
@@ -36,7 +36,7 @@ public class Game {
 				score += rolls[cursor] + rolls[cursor + 1];
 				cursor += 2;
 			}
-
+				System.out.println(cursor);
 		}
 
 		return score;

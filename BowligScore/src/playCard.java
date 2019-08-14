@@ -3,18 +3,16 @@ import java.util.Scanner;
 
 public class playCard {
 	
-//private static int[] rolls = new int[5];
+
 
 	
 	static int elemSzam = 21;
 	static int[] rolls = new int[elemSzam];
-//	static int roll = 0;
+
 	public static void main(String[] args) {
 		BowlingScore g = new BowlingScore();
 		Game gam = new Game();
 		 
-	  //      int PinsDown1 = 5;
-	  //      int PinsDown2 = 4; 
 		
 
 			checkNumbNullTen most = new checkNumbNullTen();
@@ -25,8 +23,10 @@ public class playCard {
 				gam.roll(beirtSzamok);
 
 				System.out.println(Arrays.toString(rolls));
-				gam.score();
+			//	gam.score();
+				
 				System.out.println("" + gam.score());
+				
 			
 			}
 
