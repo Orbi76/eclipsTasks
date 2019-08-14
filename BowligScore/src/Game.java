@@ -8,8 +8,8 @@ public class Game {
 	private static int[] rolls = new int[21];
 
 	public void roll(int... rolls) {
-		for (int pinsDown : rolls)
-			roll(pinsDown);
+		for (int beirtSzamok : rolls)
+			roll(beirtSzamok);
 
 	}
 

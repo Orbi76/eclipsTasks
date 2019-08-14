@@ -2,13 +2,38 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class playCard {
+	
+//private static int[] rolls = new int[5];
 
-	static int[] rolls = null;
+	
 	static int elemSzam = 21;
+	static int[] rolls = new int[elemSzam];
 //	static int roll = 0;
 	public static void main(String[] args) {
 		BowlingScore g = new BowlingScore();
+		Game gam = new Game();
+		 
+	  //      int PinsDown1 = 5;
+	  //      int PinsDown2 = 4; 
+		
 
+			checkNumbNullTen most = new checkNumbNullTen();
+			for (int i = 0; i < elemSzam; i++) {
+
+				int beirtSzamok = most.checkNumbNullTen();
+				rolls[i] = beirtSzamok;
+				gam.roll(beirtSzamok);
+
+				System.out.println(Arrays.toString(rolls));
+				gam.score();
+				System.out.println("" + gam.score());
+			
+			}
+
+		
+		
+		
+		
 		
 	//	System.out.println("result "+ g.score());	
 		//System.out.println(g.rolls());
@@ -17,6 +42,7 @@ public class playCard {
 //		rolls[elemSzam] = beirtSzamok.nextInt();
 		int roll = beirtSzamok.nextInt();
 		System.out.println("" + roll);
+		g.roll(roll);
 		g.score();
 		System.out.println("" + g.score());
 //		int rolls[] = beirtSzamok.nextInt();
