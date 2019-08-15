@@ -12,10 +12,12 @@ public class checkNumbNullTen {
 				System.out.println("That's not a number!");
 				beirt.next(); // this is important!
 			}
+			
 			beirtSzam = beirt.nextInt();
+		
 			// } while (number >= 11 || number <= -1); // execute DO till true
 		} while (!(beirtSzam >= 0 && beirtSzam <= 10)); // execute do till true
 	//	System.out.println("Thank you! Got " + beirtSzam);
 		return beirtSzam;
-	}
+	} 
 }

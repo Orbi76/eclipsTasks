@@ -4,7 +4,7 @@ public class BowlingScore
 {
 	private static int roll = 0;
 	private static int[] rolls = new int[21];
-
+ 
 //	
 /*
 	

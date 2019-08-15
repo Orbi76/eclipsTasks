@@ -33,7 +33,7 @@ public class utes {
 			}
 
 		}
-		beirtSzamok.close();
+		beirtSzamok.close(); 
 		input.close();
 	}
 

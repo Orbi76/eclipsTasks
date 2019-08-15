@@ -19,3 +19,4 @@ public class szamBeirasTizig {
 		System.out.println("Thank you! Got " + beirtSzam);
 	}
 }
+ 

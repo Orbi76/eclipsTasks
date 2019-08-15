@@ -22,5 +22,5 @@ public class checkInputNumber {
 		System.out.println("Well Done!");
 
 	}
-
+ 
 }

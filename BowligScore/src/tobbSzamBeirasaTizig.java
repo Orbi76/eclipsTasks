@@ -15,6 +15,6 @@ public class tobbSzamBeirasaTizig {
 			System.out.println(Arrays.toString(rolls));
 		}
 
-	}
+	} 
 
-}
+} 
