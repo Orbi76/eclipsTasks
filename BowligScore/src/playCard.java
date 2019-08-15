@@ -15,12 +15,30 @@ public class playCard {
 			int beirtSzamok = most.checkNumbNullTen();
 			gam.roll(beirtSzamok);
 			rolls[i] = beirtSzamok;
+			if (i==0) {
+			System.out.println("kiirt roll[i] " + rolls[i]);
+			}
+			else if (i==1) {
+				System.out.println("kiirt roll[i] [" + rolls[i-1] + ";"+ rolls[i] + "]");
+				
+				}
+			
+			else if(i % 2 ==0) {
+				System.out.println("kiirt roll 1 azaz paratlan [" + rolls[i] + ";0"+  "]");
+		//	System.out.println("kiirt roll[i] " + rolls[i]);
+			}
+			
+			else if(i % 2 ==1 || i==0) {
+				System.out.println("kiirt roll[i] paros [" + rolls[i-1] + ";"+ rolls[i] + "]");
+		//	System.out.println("kiirt roll[i] " + rolls[i]);
+			}
+			
 			
 			if (rolls[i] == 10) {
 				System.out.println("Strike");
 			
 			 
-			System.out.println("kiirt roll[i] " + rolls[i]);
+			
 		
 			} else if(rolls[i]+ rolls[i+1]== 10) {
 				System.out.println("Valami");
